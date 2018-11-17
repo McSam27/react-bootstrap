@@ -8,6 +8,9 @@ import { styled } from 'css-literal-loader/styled';
 import withProps from 'recompose/withProps';
 import pkg from '../../../package.json';
 
+// import custom bootstrap scss
+import '../../../src/scss/bootstrap.scss';
+
 import withLayout from '../withLayout';
 
 const MastHead = styled(Jumbotron)`
